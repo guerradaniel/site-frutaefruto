@@ -1,3 +1,5 @@
+/*Banner*/
+
 .banner {
     position: relative;
 }
@@ -18,4 +20,23 @@
     text-align: center;
     transform: translate(-50%, -50%);
     width: 100%;
+}
+
+/*Seção sobre*/
+
+.sobre {
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.sobre__titulo {
+    color: #8d0606;
+    font-family: Pacifico, cursive;
+    font-size: 3.1875rem;
+}
+
+.sobre__descricao {
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 100;
 }
