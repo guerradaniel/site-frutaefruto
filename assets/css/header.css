@@ -6,27 +6,27 @@
     padding: .5em 1.2em;
 }
 
-.cabecalho .menu-lista {
+.cabecalho .menu__lista {
     display: flex;
 }
 
-.menu-item {
+.menu__item {
     list-style: none;
 }
 
-.menu-link {
+.menu__link {
     color: #808080;
     margin: 0 0 0 1.5em;
     text-decoration: none;
     text-transform: lowercase;
 }
 
-.menu-link.ativo {
+.menu__link.ativo {
     color: #333333;
     font-weight: bold;
 }
 
-.menu-link:hover {
+.menu__link:hover {
     padding-bottom: .4em;
     border-bottom: 1px solid #808080;
 }
