@@ -172,3 +172,8 @@
 - Criar uma borda fora da imagem com um radius maior no hover;
 
 */
+
+.receita__botao--div {
+    display: flex;
+    justify-content: space-around;
+}
