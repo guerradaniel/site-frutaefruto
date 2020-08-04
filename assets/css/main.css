@@ -85,6 +85,11 @@
     padding: 1rem;
 }
 
+.receita__botao--div {
+    display: flex;
+    justify-content: space-around;
+}
+
 .receita__botao {
     background: #8d0606;
     border: none;
@@ -172,8 +177,3 @@
 - Criar uma borda fora da imagem com um radius maior no hover;
 
 */
-
-.receita__botao--div {
-    display: flex;
-    justify-content: space-around;
-}
