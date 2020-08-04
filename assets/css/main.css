@@ -40,3 +40,62 @@
     font-size: 1.75rem;
     font-weight: 100;
 }
+
+/*Seção receitas*/
+
+.receitas {
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5rem 0 0 5rem;
+}
+
+.receita {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem 5rem 0;
+    width: 25%;
+}
+
+.receita__imagem {
+    height: 200px;
+}
+
+.receita__titulo {
+    font-size: 1.4375rem;
+    width: auto;
+}
+
+.receita__titulo:hover {
+    border-bottom: 1px solid #8d0606;
+    cursor: pointer;
+}
+
+.receita__descricao {
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+.receita__conteudo {
+    padding: 1rem;
+}
+
+.receita__botao {
+    background: #8d0606;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+    opacity: 0.75;
+    transition: all .3s ease-in-out;
+}
+
+.receita__botao:hover {
+    opacity: 1;
+    color: #ffffff;
+    cursor: pointer;
+}
